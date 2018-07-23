@@ -62,7 +62,7 @@ public class ExampleService {
         out.println("For detailed information visit: https://developer.cardconnect.com/cardconnect-api");
         switch (option){
             case 1:
-                showExample("Auth",
+                showExample("auth",
                         "{\n\t\t" + "  \"merchid\": \"123456789012\",\n\t\t" + "  \"accttype\": \"VISA\",\n\t\t" + "  \"orderid\": \"AB-11-9876\",\n\t\t" + "  \"account\": \"4111111111111111\",\n\t\t" + "  \"expiry\": \"1218\",\n\t\t" + "  \"amount\": \"0\",\n\t\t" + "  \"currency\": \"USD\",\n\t\t" + "  \"name\": \"TOM JONES\",\n\t\t" + "  \"address\": \"123 MAIN STREET\",\n\t\t" + "  \"city\": \"anytown\",\n\t\t" + "  \"region\": \"NY\",\n\t\t" + "  \"country\": \"US\",\n\t\t" + "  \"postal\": \"55555\",\n\t\t" + "  \"profile\": \"Y\",\n\t\t" + "  \"ecomind\": \"E\",\n\t\t" + "  \"cvv2\": \"123\",\n\t\t" + "  \"track\": null,\n\t\t" + "  \"tokenize\": \"Y\",\n\t\t" + "  \"capture\": \"Y\"\n\t\t" + "}",
                         "{\n\t\t" + "  \"respstat\": \"A\",\n\t\t" + "  \"account\": \"41XXXXXXXXXX1111\",\n\t\t" + "  \"token\": \"9419786452781111\",\n\t\t" + "  \"retref\": \"343005123105\",\n\t\t" + "  \"amount\": \"111\",\n\t\t" + "  \"merchid\": \"123456789012\",\n\t\t" + "  \"respcode\": \"00\",\n\t\t" + "  \"resptext\": \"Approved\",\n\t\t" + "  \"avsresp\": \"9\",\n\t\t" + "  \"cvvresp\": \"M\",\n\t\t" + "  \"authcode\": \"046221\",\n\t\t" + "  \"respproc\": \"FNOR\",\n\t\t" + "  \"emv\": \"8A000030910A97E91E681E2734AC0012\"\n\t\t" + "}", false);
                 break;

@@ -56,14 +56,14 @@ Response:
 $ java -jar java-cardconnect-api-v2.one-jar.jar -s -e auth
 For detailed information visit: https://developer.cardconnect.com/cardconnect-api
 -------------------------------------------------
----> Example Auth Request
+---> Example auth Request
 -------------------------------------------------
 Method: PUT
-URL: https://dev.cardconnect.com/cardconnect/Auth
+URL: https://dev.cardconnect.com/cardconnect/auth
 Headers:
                 Content-Type: application/json
                 Authorization: Basic
-Example Auth Request:
+Example auth Request:
                 {
                   "merchid": "123456789012",
                   "accttype": "VISA",
@@ -85,7 +85,7 @@ Example Auth Request:
                   "tokenize": "Y",
                   "capture": "Y"
                 }
-Example Auth Response:
+Example auth Response:
                 {
                   "respstat": "A",
                   "account": "41XXXXXXXXXX1111",
