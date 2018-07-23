@@ -1,0 +1,37 @@
+target/
+!.mvn/wrapper/maven-wrapper.jar
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+
+### gocd ###
+/release-scripts
+# Protect against GoCD script executor temp scripts from being flagged as
+# untracked files by jGitFlow or release goals.
+/*.sh
+
+# GoCD pipeline configuration
+**/release-scripts
+**/cruise-output
+# Protect against GoCD script executor temp scripts from being flagged as
+# untracked files by jGitFlow or release goals.
+/*.sh
