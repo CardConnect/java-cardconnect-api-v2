@@ -2,7 +2,7 @@
 CardConnect API JAVA Sample Client v2
 
 ### Usage of Example Application
-[Download]() Example Application jar
+[Download](https://github.com/CardConnect/java-cardconnect-api-v2/files/2220540/java-cardconnect-api-v2.one-jar.jar.zip) and unzip Example Application jar.
 
 #### 1. Interactive mode
 ```bash
